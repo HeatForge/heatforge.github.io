@@ -1,0 +1,82 @@
+body {
+    background-color: #11121b;
+    color: #EDF2F4;
+    font-family: 'Varela Round', sans-serif;
+    opacity: 1.0;
+}
+
+button {
+    height: 100%;
+    margin: 2em;
+    margin-left: 8em;
+    margin-right: 8em;
+    background-size: contain;
+    background-color: #8D99AE;
+    border: 0em;
+    border-radius: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: #EDF2F4;
+    font-size: large;
+    font-family: 'Varela Round', sans-serif;
+    transition: background-color 5s;
+    transition: color 1s;
+}
+button:hover {
+    color: #2B2D42;
+    background-color: #EDF2F4;
+    box-shadow: 0em 0em 10em -5em #8D99AE;
+}
+
+.navBar {
+    width: auto;
+    height: 3em;
+    padding-top: 0em;
+    text-align: center;
+}
+
+.namePfp {
+    height: 25em;
+    width: 25em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8em;
+    text-align: center;
+    color: #EF233C;
+}
+
+.pfp {
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    transition: box-shadow 1s;
+}
+.pfp:hover{
+    box-shadow: 0em 0em 7em -2em #D90429;
+}
+
+.contentBox {
+    margin: 10em;
+    margin-top: 15em;
+    width: auto;
+    text-align: center;
+    height: 20em;
+    color: #EDF2F4;
+}
+.content {
+    background-size: contain;
+    width: auto;
+    margin-left: 6.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 6.5em;
+    float: left;
+    background-color: #2B2D42;
+    border-radius: 1em;
+    color: #EF233C;
+    box-shadow: 0em 0em 7em -2em #2B2D42;
+}
+p {
+    width: 13em;
+}
